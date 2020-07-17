@@ -8,7 +8,7 @@ Las pruebas se llevaron a cabo en un sistema operativo Parrot OS.
 
 ![AF](https://user-images.githubusercontent.com/67207446/87739303-2c995900-c7a5-11ea-8bc2-26732d2b65ef.PNG)
 
-git clone https://github.com/Anonimo501/RogueAP.git
+git clone https://github.com/Anonimo501/Aggressive-Footpriting.git
 
 cd Aggressive-Footpriting
 
