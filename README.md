@@ -15,3 +15,8 @@ cd Aggressive-Footpriting
 chmod +x Aggressive-Footpriting
 
 ./Aggressive-Footpriting
+
+# Referencias
+
+m4ll0k/Infoga https://github.com/m4ll0k/Infoga
+aboul3la/Sublist3r https://github.com/aboul3la/Sublist3r
