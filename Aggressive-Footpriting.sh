@@ -41,6 +41,15 @@ echo "Ingrese la IP del sitio"
 echo " "
 read ip
 
+wget $dominio
+# descargamos el dominio y guardamos los dominios en dominios.txt
+grep "href=" index.html | cut -d"/" -f3 | grep "\." | cut -d'"' -f1 | sort -u > dominios.txt
+cat dominios.txt
+echo ""
+# sacamos las ips de los dominios antes conseguidos y se guardan en ips.txt
+for dominio in $(cat dominios.txt); do host $dominio | grep "has address" | cut -d " " -f4; done | sort -u > ips.txt
+cat ips.txt
+
 # Cewl
 echo ""
 echo "Se esta creando un diccionario con posibles contraseñas con Cewl"
